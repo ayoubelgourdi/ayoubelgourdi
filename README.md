@@ -1,73 +1,100 @@
-<h1 align="center">Ayoub El Gourdi</h1>
+<h1 align="center">Hi there, I'm Ayoub 👋</h1>
 
 <p align="center">
-  Python Developer • Computer Science Student
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=Web+Developer;Learning+%26+Building;Agadir%2C+Morocco" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PROFILE_VIEWS-000-black?style=for-the-badge&labelColor=000000" alt="profile views"/>
+  <img src="https://img.shields.io/badge/WEB_DEVELOPER-00FF00?style=for-the-badge&labelColor=000000&color=00FF00" alt="web dev"/>
+  <img src="https://img.shields.io/badge/OPEN_SOURCE-blue?style=for-the-badge&labelColor=000000" alt="open source"/>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## ( WHOAMI )
 
-I'm a Computer Science student from Morocco passionate about software development and problem solving.
+```bash
+┌──(ayoub@agadir)-[~]
+└─$ whoami --verbose
 
-- 🐍 Main Language: Python
-- 🌱 Currently Learning: Django & Backend Development
-- 💡 Interested in: Desktop Applications, Automation, Web Development
-- 🎯 Goal: Become a Professional Backend Developer
+  NAME       →  Ayoub Elgourdi
+  AGE        →  20
+  LOCATION   →  Agadir, Morocco
+  ROLE       →  Web Developer
+  STATUS     →  Learning & Building
+  PRINCIPLE  →  "Clean code, real projects."
+```
 
----
+```bash
+┌──(ayoub@agadir)-[~]
+└─$ cat focus.txt
 
-## 🚀 Current Focus
-
-- Building real-world Python projects
-- Improving OOP and Data Structures skills
-- Learning Django and Web Development
-- Strengthening Git & GitHub workflow
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+  STACK      →  React · Next.js · Node.js · Express
+  DATABASES  →  MySQL · PostgreSQL
+  NOW        →  [ Learning ] [ Building ]
+  OPEN FOR   →  Collab · Freelance · Internship
+```
 
 ---
 
-## 📂 Featured Projects
+## ( TECH STACK )
 
-### OpticStore
-Management system for an optical store built with Python.
+**◆ Languages ◆**
 
-🔗 Repository:
-https://github.com/ayoubelgourdi/OpticStore
-
-### Calculator GUI
-Desktop calculator built with Tkinter.
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ayoubelgourdi&show_icons=true&theme=tokyonight"/>
+<p align="left">
+<img src="https://skillicons.dev/icons?i=py,html,css,js,ts" />
 </p>
 
-<p align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=ayoubelgourdi&theme=tokyonight"/>
+**◆ Frontend ◆**
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" />
+</p>
+
+**◆ Backend & Databases ◆**
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres" />
+</p>
+
+**◆ Tools & OS ◆**
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,kubernetes,linux,ubuntu" />
 </p>
 
 ---
 
-## 📫 Connect With Me
+## ( CONNECT )
 
-- GitHub: https://github.com/ayoubelgourdi
-- LinkedIn: https://www.linkedin.com/in/ayoubelgourdi/
+<p align="left">
+  <a href="https://www.linkedin.com/in/ayoubelgourdi/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-⭐ Always learning and building.
+## ( GITHUB STATS )
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ayoubelgourdi&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00FF00&icon_color=00FF00" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ayoubelgourdi&theme=dark&hide_border=true&background=0d1117&ring=00FF00&fire=00FF00" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayoubelgourdi&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00FF00" width="49%" />
+</p>
+
+---
+
+## ( ACTIVITY GRAPH )
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayoubelgourdi&theme=react-dark&hide_border=true&bg_color=0d1117&color=00FF00&line=00FF00&point=ffffff" width="100%" />
+</p>
+
+---
+
+<p align="center"><i>"Low noise, high precision."</i></p>
