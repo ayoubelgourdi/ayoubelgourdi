@@ -95,9 +95,6 @@
   <img src="https://github-stats-extended.vercel.app/api?username=ayoubelgourdi&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00FF00&icon_color=00FF00" width="49%" />
   <img src="https://streak-stats.demolab.com?user=ayoubelgourdi&theme=dark&hide_border=true&background=0d1117&ring=00FF00&fire=00FF00" width="49%" />
 </p>
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ayoubelgourdi&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00FF00" width="49%" />
-</p>
 
 ---
 
