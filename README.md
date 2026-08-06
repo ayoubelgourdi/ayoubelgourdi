@@ -1,6 +1,6 @@
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/banner.svg" width="100%" alt="banner"/>
-</p>
+</p> -->
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=Web+Developer;Learning+%26+Building;Agadir%2C+Morocco" alt="Typing SVG" />
@@ -29,7 +29,6 @@
   LOCATION   →  Agadir, Morocco
   ROLE       →  Web Developer
   STATUS     →  Learning & Building
-  PRINCIPLE  →  "Clean code, real projects."
 ```
 
 </td>
@@ -43,6 +42,7 @@
   BACKEND    →  Express · MySQL · PostgreSQL
   NOW        →  [ Learning ] [ Building ]
   OPEN FOR   →  Collab · Freelance · Internship
+  PRINCIPLE  →  "Clean code, real projects."
 ```
 
 </td>
