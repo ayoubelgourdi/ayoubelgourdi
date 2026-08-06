@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=220&section=header&text=Ayoub%20Elgourdi&fontSize=45&fontColor=00FF00&animation=fadeIn&fontAlignY=38&desc=Web%20Developer%20%7C%20Agadir%2C%20Morocco&descAlignY=58&descSize=18&descColor=ffffff" alt="banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=220&section=header&text=Welcome&fontSize=60&fontColor=00FF00&animation=twinkling&fontAlignY=38&desc=Ayoub%20Elgourdi%20%7C%20Web%20Developer%20%7C%20Agadir%2C%20Morocco&descAlignY=62&descSize=18&descColor=ffffff" alt="banner"/>
 </p>
 
 <p align="center">
@@ -25,7 +25,6 @@
 └─$ whoami --verbose
 
   NAME       →  Ayoub Elgourdi
-  AGE        →  20
   LOCATION   →  Agadir, Morocco
   ROLE       →  Web Developer
   STATUS     →  Learning & Building
