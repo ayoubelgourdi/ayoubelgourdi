@@ -21,7 +21,7 @@
 <td valign="top">
 
 ```bash
-┌──(ayoub@agadir)-[~]
+┌──(ayoub@elgourdi)-[~]
 └─$ whoami --verbose
 
   NAME       →  Ayoub Elgourdi
@@ -35,7 +35,7 @@
 <td valign="top">
 
 ```bash
-┌──(ayoub@agadir)-[~]
+┌──(ayoub@elgourdi)-[~]
 └─$ cat focus.txt
 
   STACK      →  React · Next.js · Node.js
