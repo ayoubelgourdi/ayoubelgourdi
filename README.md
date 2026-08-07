@@ -5,6 +5,7 @@
     alt="Profile image"
   />
 </p>
+
 <p align="center">
-  <img src="./welcome.svg" alt="WELCOME">
+  <img src="./welcome.svg" alt="Welcome to my GitHub" width="420">
 </p>
