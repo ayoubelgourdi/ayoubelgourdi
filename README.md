@@ -42,20 +42,20 @@
 
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
-<td width="280" valign="top">
+<!-- <td width="280" valign="top">
 <img src="https://cdn.pfps.gg/pfps/76910-auraxd.jpeg" width="300"/>
-</td>
-<td valign="top">
+</td> -->
+<td valign="top" align="center">
 
-<h2 align="left"><code>Hey there! I'm Ayoub</code></h2>
+<h2 align="center"><code>Hey there! I'm Ayoub</code></h2>
 
-<code>I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my head clear, and football is where I unplug completely. Still learning every day, one commit at a time.</code>
+<code align="center">I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my head clear, and football is where I unplug completely. Still learning every day, one commit at a time.</code>
 
 </td>
 </tr>
 </table>
 
-<br clear="left"/>
+<br clear="center"/>
 
 <a id="stack"></a>
 <h2 align="center"><code>Tech Stack</code></h2>
