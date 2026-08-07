@@ -321,29 +321,35 @@ def stars_counter(data):
     return total_stars
 
 
-def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
+def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
+                  contrib_data, follower_data, loc_data):
     """
-    Generate a terminal-style SVG profile card.
+    Generate a compact terminal-style GitHub profile card.
+    """
 
-    The GitHub/API calculation logic above stays unchanged. This function only
-    controls the visual design of the generated card.
-    """
     from xml.sax.saxutils import escape
 
     is_dark = filename != 'light_mode.svg'
 
-    # Terminal palette inspired by the reference card.
+    # =========================
+    # COLORS
+    # =========================
     bg = '#111820' if is_dark else '#f7f9fb'
     border = '#263746' if is_dark else '#c8d1d9'
+
     white = '#e6edf3' if is_dark else '#24292f'
     muted = '#8b949e' if is_dark else '#57606a'
+
     green = '#7ee787' if is_dark else '#1a7f37'
     cyan = '#79c0ff' if is_dark else '#0969da'
     orange = '#ffa657' if is_dark else '#bc4c00'
     red = '#ff7b72' if is_dark else '#cf222e'
 
-    # Values produced by the existing GitHub calculations.
-    age = str(age_data).split()[0] if str(age_data).split() else str(age_data)
+    # =========================
+    # DATA
+    # =========================
+    age = str(age_data).split()[0]
+
     loc_total, loc_added, loc_deleted = loc_data
 
     info_rows = [
@@ -380,114 +386,260 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib
         ('Commits:', commit_data),
     ]
 
-    width = 1000
-    height = 800
-    left = 34
-    right = 966
-    row_h = 25
-    font = 16
-    label_x = 62
-    dots_x = 300
-    value_x = 590
+    # =========================
+    # LAYOUT
+    # =========================
+    width = 1100
+    height = 650
 
+    left = 32
+    right = width - 32
+
+    font = 15
+    row_h = 22
+
+    # Fixed columns.
+    label_x = 58
+    dots_x = 360
+    value_x = 710
+
+    # =========================
+    # HELPERS
+    # =========================
     def esc(value):
         return escape(str(value))
 
     def section(title, y):
-        title_w = max(70, len(title) * 9)
+        """
+        Section title + horizontal line.
+        """
+        title_width = len(title) * 9
+
         return (
-            f'<text x="{left}" y="{y}" fill="{cyan}" font-size="{font}" '
-            f'font-weight="600">{esc(title)}</text>'
-            f'<line x1="{left + title_w + 18}" y1="{y - 5}" x2="{right}" y2="{y - 5}" '
-            f'stroke="{muted}" stroke-width="1"/>'
+            f'<text x="{left}" y="{y}" '
+            f'fill="{cyan}" font-size="{font}" font-weight="600">'
+            f'{esc(title)}</text>'
+
+            f'<line '
+            f'x1="{left + title_width + 18}" '
+            f'y1="{y - 5}" '
+            f'x2="{right}" '
+            f'y2="{y - 5}" '
+            f'stroke="{muted}" '
+            f'stroke-width="1"/>'
         )
 
     def data_row(label, value, y, value_color=cyan):
-        dots = '. ' * 23
+        """
+        One terminal information row.
+        """
+
+        # Fixed amount of dots.
+        # Because the font is monospace, every row lines up.
+        dots = '· ' * 27
+
         return (
-            f'<text x="{left + 4}" y="{y}" fill="{muted}" font-size="{font}">·</text>'
-            f'<text x="{label_x}" y="{y}" fill="{orange}" font-size="{font}" '
-            f'font-weight="600">{esc(label)}</text>'
-            f'<text x="{dots_x}" y="{y}" fill="{muted}" font-size="{font}">{dots}</text>'
-            f'<text x="{value_x}" y="{y}" fill="{value_color}" font-size="{font}">{esc(value)}</text>'
+            # bullet
+            f'<text x="{left + 5}" y="{y}" '
+            f'fill="{muted}" font-size="{font}">·</text>'
+
+            # label
+            f'<text x="{label_x}" y="{y}" '
+            f'fill="{orange}" '
+            f'font-size="{font}" '
+            f'font-weight="600">'
+            f'{esc(label)}</text>'
+
+            # dots
+            f'<text x="{dots_x}" y="{y}" '
+            f'fill="{muted}" '
+            f'font-size="{font}">'
+            f'{dots}</text>'
+
+            # value
+            f'<text x="{value_x}" y="{y}" '
+            f'fill="{value_color}" '
+            f'font-size="{font}">'
+            f'{esc(value)}</text>'
         )
 
+    # =========================
+    # SVG START
+    # =========================
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" '
+        f'width="{width}" height="{height}" '
         f'viewBox="0 0 {width} {height}">',
-        f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="18" '
-        f'fill="{bg}" stroke="{border}" stroke-width="2"/>',
-        f'<style>text {{ font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }}</style>',
 
-        f'<text x="{left}" y="42" fill="{green}" font-size="{font}" font-weight="600">'
-        f'ayoubelgourdi@github:~$</text>',
-        f'<text x="250" y="42" fill="{cyan}" font-size="{font}" font-weight="600">whoami --info</text>',
+        # Terminal background
+        f'<rect '
+        f'x="1" y="1" '
+        f'width="{width - 2}" '
+        f'height="{height - 2}" '
+        f'rx="18" '
+        f'fill="{bg}" '
+        f'stroke="{border}" '
+        f'stroke-width="2"/>',
+
+        # Monospace font
+        '''
+        <style>
+            text {
+                font-family:
+                    "SFMono-Regular",
+                    Consolas,
+                    "Liberation Mono",
+                    Menlo,
+                    monospace;
+            }
+        </style>
+        ''',
+
+        # Terminal command
+        f'<text x="{left}" y="38" '
+        f'fill="{green}" '
+        f'font-size="{font}" '
+        f'font-weight="600">'
+        f'ayoubelgourdi@github:~$'
+        f'</text>',
+
+        f'<text x="245" y="38" '
+        f'fill="{cyan}" '
+        f'font-size="{font}" '
+        f'font-weight="600">'
+        f'whoami --info'
+        f'</text>',
     ]
 
-    y = 88
+    # =========================
+    # CONTENT
+    # =========================
+    y = 72
 
+    # -------- INFO --------
     parts.append(section('Info', y))
-    y += 30
+    y += 26
+
     for label, value in info_rows:
         parts.append(data_row(label, value, y))
         y += row_h
 
-    y += 12
+    # -------- LANGUAGES --------
+    y += 7
     parts.append(section('Languages', y))
-    y += 30
+    y += 26
+
     for label, value in language_rows:
         parts.append(data_row(label, value, y))
         y += row_h
 
-    y += 12
+    # -------- FRAMEWORKS --------
+    y += 7
     parts.append(section('Frameworks', y))
-    y += 30
+    y += 26
+
     for label, value in framework_rows:
         parts.append(data_row(label, value, y))
         y += row_h
 
-    y += 12
+    # -------- DATABASE --------
+    y += 7
     parts.append(section('Database', y))
-    y += 30
+    y += 26
+
     for label, value in database_rows:
         parts.append(data_row(label, value, y))
         y += row_h
 
-    y += 12
+    # -------- CONTACT --------
+    y += 7
     parts.append(section('Contact', y))
-    y += 30
+    y += 26
+
     for label, value in contact_rows:
         parts.append(data_row(label, value, y))
         y += row_h
 
-    y += 12
+    # -------- GITHUB STATS --------
+    y += 7
     parts.append(section('GitHub Stats', y))
-    y += 30
+    y += 26
+
     for label, value in stats_rows:
         parts.append(data_row(label, value, y))
         y += row_h
 
-    # LOC: total (added++, deleted--) with separate colors.
+    # =========================
+    # LINES OF CODE
+    # =========================
     parts.append(
-        f'<text x="{left + 4}" y="{y}" fill="{muted}" font-size="{font}">·</text>'
-        f'<text x="{label_x}" y="{y}" fill="{orange}" font-size="{font}" '
-        f'font-weight="600">Lines of Code:</text>'
-        f'<text x="{dots_x}" y="{y}" fill="{muted}" font-size="{font}">{". " * 23}</text>'
-        f'<text x="{value_x}" y="{y}" fill="{cyan}" font-size="{font}">{esc(loc_total)}</text>'
-        f'<text x="{value_x + 105}" y="{y}" fill="{white}" font-size="{font}">(</text>'
-        f'<text x="{value_x + 118}" y="{y}" fill="{green}" font-size="{font}">{esc(loc_added)}++</text>'
-        f'<text x="{value_x + 198}" y="{y}" fill="{white}" font-size="{font}">,</text>'
-        f'<text x="{value_x + 213}" y="{y}" fill="{red}" font-size="{font}">{esc(loc_deleted)}--</text>'
-        f'<text x="{value_x + 290}" y="{y}" fill="{white}" font-size="{font}">)</text>'
+        f'<text x="{left + 5}" y="{y}" '
+        f'fill="{muted}" font-size="{font}">·</text>'
+
+        f'<text x="{label_x}" y="{y}" '
+        f'fill="{orange}" '
+        f'font-size="{font}" '
+        f'font-weight="600">'
+        f'Lines of Code:</text>'
+
+        f'<text x="{dots_x}" y="{y}" '
+        f'fill="{muted}" '
+        f'font-size="{font}">'
+        f'{"· " * 27}</text>'
+
+        f'<text x="{value_x}" y="{y}" '
+        f'fill="{cyan}" '
+        f'font-size="{font}">'
+        f'{esc(loc_total)}</text>'
+
+        f'<text x="{value_x + 85}" y="{y}" '
+        f'fill="{white}" '
+        f'font-size="{font}">(</text>'
+
+        f'<text x="{value_x + 98}" y="{y}" '
+        f'fill="{green}" '
+        f'font-size="{font}">'
+        f'{esc(loc_added)}++</text>'
+
+        f'<text x="{value_x + 175}" y="{y}" '
+        f'fill="{white}" '
+        f'font-size="{font}">,</text>'
+
+        f'<text x="{value_x + 188}" y="{y}" '
+        f'fill="{red}" '
+        f'font-size="{font}">'
+        f'{esc(loc_deleted)}--</text>'
+
+        f'<text x="{value_x + 265}" y="{y}" '
+        f'fill="{white}" '
+        f'font-size="{font}">)</text>'
     )
-    y += row_h + 22
+
+    # =========================
+    # FINAL PROMPT
+    # =========================
+    y += row_h + 16
 
     parts.append(
-        f'<text x="{left}" y="{y}" fill="{green}" font-size="{font}" font-weight="600">'
-        f'ayoubelgourdi@github:~$</text>'
-        f'<rect x="224" y="{y - 17}" width="10" height="20" fill="{white}"/>'
+        f'<text x="{left}" y="{y}" '
+        f'fill="{green}" '
+        f'font-size="{font}" '
+        f'font-weight="600">'
+        f'ayoubelgourdi@github:~$'
+        f'</text>'
+
+        # blinking cursor
+        f'<rect '
+        f'x="224" '
+        f'y="{y - 14}" '
+        f'width="9" '
+        f'height="18" '
+        f'fill="{white}"/>'
     )
 
+    # =========================
+    # END SVG
+    # =========================
     parts.append('</svg>')
 
     with open(filename, 'w', encoding='utf-8') as f:
