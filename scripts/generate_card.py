@@ -584,6 +584,14 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
     # =========================
     # LINES OF CODE
     # =========================
+    # Calculate dots for Lines of Code
+    loc_label_end = label_x + (len("Lines of Code:") * 8)
+    loc_dots_x = loc_label_end + 18
+
+    loc_available_width = value_x - loc_dots_x - 10
+    loc_dot_count = max(1, int(loc_available_width / 10))
+
+    loc_dots = '·' * loc_dot_count
     parts.append(
         f'<text x="{left + 5}" y="{y}" '
         f'fill="{muted}" font-size="{font}">·</text>'
@@ -594,12 +602,13 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
         f'font-weight="600">'
         f'Lines of Code:</text>'
 
-        f'<text x="{dots_x}" y="{y}" '
+        f'<text x="{loc_dots_x}" y="{y}" '
         f'fill="{muted}" '
-        f'font-size="{font}">'
-        f'{"· " * 27}</text>'
+        f'font-size="{font}" '
+        f'letter-spacing="2">'
+        f'{loc_dots}</text>'
 
-        f'<text x="{value_x}" y="{y}" '
+        f'<text x="{value_x + 8}" y="{y}" '
         f'fill="{cyan}" '
         f'font-size="{font}">'
         f'{esc(loc_total)}</text>'
