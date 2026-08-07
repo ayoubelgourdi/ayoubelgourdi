@@ -3,16 +3,17 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0d1117&height=180&section=header&text=Ayoub%20Elgourdi&fontSize=55&fontColor=ffffff&fontAlignY=40" width="100%"/> -->
 <div align="center">
   
-<img data-importer="image" align="right" height="225" src="https://wallpaperaccess.com/full/21000069.jpg"  />
+  <img data-importer="image" align="right" height="225" src="https://wallpaperaccess.com/full/21000069.jpg"  />
 
 </div>
-###
+
+<div align="center">
 
 ![Stars](https://img.shields.io/badge/⭐_Stars-0-000000?style=for-the-badge)
 ![Forks](https://img.shields.io/badge/🍴_Forks-0-000000?style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/ayoubelgourdi?label=FOLLOWERS&style=for-the-badge&color=000000&labelColor=000000)
 
-<!-- </div> -->
+</div>
 
 <br>
 
