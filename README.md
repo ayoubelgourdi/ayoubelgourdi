@@ -47,16 +47,12 @@
 </td> -->
 <!-- <td valign="top" align="center"> -->
 
-<h2 align="left"><code>Hey there! I'm Ayoub</code></h2>
+<!-- <h2 align="left">Hey there! I'm Ayoub</h2> -->
 
-<code align="center">I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my head clear, and football is where I unplug completely. Still learning every day, one commit at a time.</code>
-
-<!-- </td> -->
-<!-- </tr> -->
-<!-- </table> -->
+<p align="left">Hey there! I'm Ayoub,
+I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my  head clear, and football is where I unplug completely. Still learning every day, one commit at a time.</p>
 
 <br clear="center"/>
-
 <a id="stack"></a>
 <h2 align="center"><code>Tech Stack</code></h2>
 
