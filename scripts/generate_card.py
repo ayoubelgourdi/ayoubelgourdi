@@ -602,36 +602,36 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
         f'font-weight="600">'
         f'Lines of Code:</text>'
 
-        f'<text x="{loc_dots_x}" y="{y}" '
+        f'<text x="{loc_dots_x - 4}" y="{y}" '
         f'fill="{muted}" '
         f'font-size="{font}" '
         f'letter-spacing="2">'
         f'{loc_dots}</text>'
 
-        f'<text x="{value_x + 8}" y="{y}" '
+        f'<text x="{value_x + 1}" y="{y}" '
         f'fill="{cyan}" '
         f'font-size="{font}">'
         f'{esc(loc_total)}</text>'
 
-        f'<text x="{value_x + 55}" y="{y}" '
+        f'<text x="{value_x + 48}" y="{y}" '
         f'fill="{white}" '
         f'font-size="{font}">(</text>'
 
-        f'<text x="{value_x + 70}" y="{y}" '
+        f'<text x="{value_x + 63}" y="{y}" '
         f'fill="{green}" '
         f'font-size="{font}">'
         f'{esc(loc_added)}++</text>'
 
-        f'<text x="{value_x + 130}" y="{y}" '
+        f'<text x="{value_x + 123}" y="{y}" '
         f'fill="{white}" '
         f'font-size="{font}">,</text>'
 
-        f'<text x="{value_x + 150}" y="{y}" '
+        f'<text x="{value_x + 143}" y="{y}" '
         f'fill="{red}" '
         f'font-size="{font}">'
         f'{esc(loc_deleted)}--</text>'
 
-        f'<text x="{value_x + 210}" y="{y}" '
+        f'<text x="{value_x + 203}" y="{y}" '
         f'fill="{white}" '
         f'font-size="{font}">)</text>'
     )
