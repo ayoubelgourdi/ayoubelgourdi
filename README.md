@@ -3,35 +3,35 @@
 <td>
 
 ```yaml
-ayoub@elgourdi --------------------------------------------------- \
+ayoub@elgourdi:~$ whoami --info --------------------------------------------------- \
 
 Info:
-  Name:     ..................................... "Ayoub Elgourdi"
-  Age:      ..................................... 20
-  Role:     ..................................... "Web Developer"
-  Location: ..................................... "Agadir, Morocco"
-  Status:   ..................................... "Learning & Building"
+Name: ......................................... "Ayoub Elgourdi"
+Age: .......................................... 20
+Role: ......................................... "Web Developer"
+Location: ..................................... "Agadir, Morocco"
+Status: ....................................... "Learning & Building"
 
 Languages:
-  Programming: .................................. "Python, JavaScript, TypeScript"
-  Web:         .................................. "HTML, CSS"
+Programming: .................................. "Python, JavaScript, TypeScript"
+Web: .......................................... "HTML, CSS"
 
 Frameworks:
-  Frontend: ...................................... "React, Next.js, Tailwind CSS"
-  Backend:  ...................................... "Node.js, Express.js"
+Frontend: ..................................... "React, Next.js, Tailwind CSS"
+Backend: ...................................... "Node.js, Express.js"
 
 Databases:
-  SQL: ........................................... "MySQL, PostgreSQL"
+SQL: .......................................... "MySQL, PostgreSQL"
 
 Tools:
-  VersionControl: ................................ "Git, GitHub"
-  Editors:        ................................ "VS Code, Cursor"
-  OS:             ................................ "Linux"
-  DevOps:         ................................ "Docker"
+VersionControl: ............................... "Git, GitHub"
+Editors: ...................................... "VS Code, Cursor"
+OS: ........................................... "Linux"
+DevOps: ....................................... "Docker"
 
 Contact:
-  Email:    ...................................... "devayoub26@gmail.com"
-  LinkedIn: ...................................... "linkedin.com/in/ayoubelgourdi"
+Email: ........................................ "devayoub26@gmail.com"
+LinkedIn: ..................................... "linkedin.com/in/ayoubelgourdi"
 ```
 
 </td>
