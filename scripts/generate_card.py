@@ -432,218 +432,55 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
     def data_row(label, value, y, value_color=cyan):
         """
         One terminal information row.
+        Dots start immediately after the label
+        and finish just before the value.
         """
-
-        # Fixed amount of dots.
-        # Because the font is monospace, every row lines up.
-        dots = '· ' * 27
-
+    
+        char_width = 9
+        gap = 12
+    
+        # Calculate where the label ends
+        label_end_x = label_x + (len(label) * char_width)
+    
+        # Dots position
+        dots_start_x = label_end_x + gap
+        dots_end_x = value_x - 8
+    
+        # Available space
+        dots_width = dots_end_x - dots_start_x
+    
+        # Number of dots
+        dot_width = 8
+        dots_count = max(1, int(dots_width / dot_width))
+    
+        dots = '.' * dots_count
+    
         return (
-            # bullet
+            # Bullet
             f'<text x="{left + 5}" y="{y}" '
-            f'fill="{muted}" font-size="{font}">·</text>'
-
-            # label
+            f'fill="{muted}" '
+            f'font-size="{font}">&#183;</text>'
+    
+            # Label
             f'<text x="{label_x}" y="{y}" '
             f'fill="{orange}" '
             f'font-size="{font}" '
             f'font-weight="600">'
             f'{esc(label)}</text>'
-
-            # dots
-            f'<text x="{dots_x}" y="{y}" '
+    
+            # Dots
+            f'<text x="{dots_start_x}" y="{y}" '
             f'fill="{muted}" '
-            f'font-size="{font}">'
+            f'font-size="{font}" '
+            f'letter-spacing="1">'
             f'{dots}</text>'
-
-            # value
+    
+            # Value
             f'<text x="{value_x}" y="{y}" '
             f'fill="{value_color}" '
             f'font-size="{font}">'
             f'{esc(value)}</text>'
         )
-
-    # =========================
-    # SVG START
-    # =========================
-    parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" '
-        f'width="{width}" height="{height}" '
-        f'viewBox="0 0 {width} {height}">',
-
-        # Terminal background
-        f'<rect '
-        f'x="1" y="1" '
-        f'width="{width - 2}" '
-        f'height="{height - 2}" '
-        f'rx="18" '
-        f'fill="{bg}" '
-        f'stroke="{border}" '
-        f'stroke-width="2"/>',
-
-        # Monospace font
-        '''
-        <style>
-            text {
-                font-family:
-                    "SFMono-Regular",
-                    Consolas,
-                    "Liberation Mono",
-                    Menlo,
-                    monospace;
-            }
-        </style>
-        ''',
-
-        # Terminal command
-        f'<text x="{left}" y="38" '
-        f'fill="{green}" '
-        f'font-size="{font}" '
-        f'font-weight="600">'
-        f'ayoubelgourdi@github:~$'
-        f'</text>',
-
-        f'<text x="245" y="38" '
-        f'fill="{cyan}" '
-        f'font-size="{font}" '
-        f'font-weight="600">'
-        f'whoami --info'
-        f'</text>',
-    ]
-
-    # =========================
-    # CONTENT
-    # =========================
-    y = 72
-
-    # -------- INFO --------
-    parts.append(section('Info', y))
-    y += 26
-
-    for label, value in info_rows:
-        parts.append(data_row(label, value, y))
-        y += row_h
-
-    # -------- LANGUAGES --------
-    y += 7
-    parts.append(section('Languages', y))
-    y += 26
-
-    for label, value in language_rows:
-        parts.append(data_row(label, value, y))
-        y += row_h
-
-    # -------- FRAMEWORKS --------
-    y += 7
-    parts.append(section('Frameworks', y))
-    y += 26
-
-    for label, value in framework_rows:
-        parts.append(data_row(label, value, y))
-        y += row_h
-
-    # -------- DATABASE --------
-    y += 7
-    parts.append(section('Database', y))
-    y += 26
-
-    for label, value in database_rows:
-        parts.append(data_row(label, value, y))
-        y += row_h
-
-    # -------- CONTACT --------
-    y += 7
-    parts.append(section('Contact', y))
-    y += 26
-
-    for label, value in contact_rows:
-        parts.append(data_row(label, value, y))
-        y += row_h
-
-    # -------- GITHUB STATS --------
-    y += 7
-    parts.append(section('GitHub Stats', y))
-    y += 26
-
-    for label, value in stats_rows:
-        parts.append(data_row(label, value, y))
-        y += row_h
-
-    # =========================
-    # LINES OF CODE
-    # =========================
-    parts.append(
-        f'<text x="{left + 5}" y="{y}" '
-        f'fill="{muted}" font-size="{font}">·</text>'
-
-        f'<text x="{label_x}" y="{y}" '
-        f'fill="{orange}" '
-        f'font-size="{font}" '
-        f'font-weight="600">'
-        f'Lines of Code:</text>'
-
-        f'<text x="{dots_x}" y="{y}" '
-        f'fill="{muted}" '
-        f'font-size="{font}">'
-        f'{"· " * 27}</text>'
-
-        f'<text x="{value_x}" y="{y}" '
-        f'fill="{cyan}" '
-        f'font-size="{font}">'
-        f'{esc(loc_total)}</text>'
-
-        f'<text x="{value_x + 85}" y="{y}" '
-        f'fill="{white}" '
-        f'font-size="{font}">(</text>'
-
-        f'<text x="{value_x + 98}" y="{y}" '
-        f'fill="{green}" '
-        f'font-size="{font}">'
-        f'{esc(loc_added)}++</text>'
-
-        f'<text x="{value_x + 175}" y="{y}" '
-        f'fill="{white}" '
-        f'font-size="{font}">,</text>'
-
-        f'<text x="{value_x + 188}" y="{y}" '
-        f'fill="{red}" '
-        f'font-size="{font}">'
-        f'{esc(loc_deleted)}--</text>'
-
-        f'<text x="{value_x + 265}" y="{y}" '
-        f'fill="{white}" '
-        f'font-size="{font}">)</text>'
-    )
-
-    # =========================
-    # FINAL PROMPT
-    # =========================
-    y += row_h + 16
-
-    parts.append(
-        f'<text x="{left}" y="{y}" '
-        f'fill="{green}" '
-        f'font-size="{font}" '
-        f'font-weight="600">'
-        f'ayoubelgourdi@github:~$'
-        f'</text>'
-
-        # blinking cursor
-        f'<rect '
-        f'x="224" '
-        f'y="{y - 14}" '
-        f'width="9" '
-        f'height="18" '
-        f'fill="{white}"/>'
-    )
-
-    # =========================
-    # END SVG
-    # =========================
-    parts.append('</svg>')
-
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(parts))
 
 
 def justify_format(root, element_id, new_text, length=0):
