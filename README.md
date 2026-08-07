@@ -7,5 +7,5 @@
 </p>
 
 <p align="center">
-  <img src="./welcome.svg" alt="Welcome to my GitHub" width="420">
+  <img src="welcome.svg" alt="Welcome to my GitHub" width="420">
 </p>
