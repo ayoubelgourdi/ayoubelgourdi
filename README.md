@@ -17,10 +17,10 @@
 
 <div align="center">
 
-<img data-importer="image" height="350" src="https://wallpaperaccess.com/full/21000069.jpg"  />
+<!-- <img data-importer="image" height="350" src="https://wallpaperaccess.com/full/21000069.jpg"  />
 <p>
   
-</p>
+</p> -->
 
 ![Stars](https://img.shields.io/badge/⭐_Stars-0-000000?style=for-the-badge)
 ![Forks](https://img.shields.io/badge/🍴_Forks-0-000000?style=for-the-badge)
@@ -103,18 +103,18 @@
 
 <br>
 
-<a id="contribution"></a>
+<!-- <a id="contribution"></a>
 <h2 align="center"><code>Contribution</code></h2>
 
-<div align="center">
+<div align="center"> -->
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayoubelgourdi&theme=github-compact&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true" width="100%"/>
+<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayoubelgourdi&theme=github-compact&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true" width="100%"/> -->
 
 <!-- <img src="https://github-readme-stats.vercel.app/api?username=ayoubelgourdi&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" width="49%"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayoubelgourdi&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" width="42%"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=ayoubelgourdi&theme=dark&hide_border=true&background=0d1117" width="90%"/> -->
 
-</div>
+<!-- </div>
 
-</div>
+</div> -->
