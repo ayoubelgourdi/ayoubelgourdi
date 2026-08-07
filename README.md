@@ -1,12 +1,9 @@
 <table>
 <tr>
-<td width="320">
-<img src="./profile.jpg" width="300"/>
-</td>
 <td>
 
 ```yaml
-ayoub@elgourdi -----------------------------------------------
+ayoub@elgourdi --------------------------------------------------- \
 
 Info:
   Name:     ..................................... "Ayoub Elgourdi"
