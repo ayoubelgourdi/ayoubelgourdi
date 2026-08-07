@@ -613,25 +613,25 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
         f'font-size="{font}">'
         f'{esc(loc_total)}</text>'
 
-        f'<text x="{value_x + 85}" y="{y}" '
+        f'<text x="{value_x + 55}" y="{y}" '
         f'fill="{white}" '
         f'font-size="{font}">(</text>'
 
-        f'<text x="{value_x + 98}" y="{y}" '
+        f'<text x="{value_x + 70}" y="{y}" '
         f'fill="{green}" '
         f'font-size="{font}">'
         f'{esc(loc_added)}++</text>'
 
-        f'<text x="{value_x + 175}" y="{y}" '
+        f'<text x="{value_x + 130}" y="{y}" '
         f'fill="{white}" '
         f'font-size="{font}">,</text>'
 
-        f'<text x="{value_x + 188}" y="{y}" '
+        f'<text x="{value_x + 150}" y="{y}" '
         f'fill="{red}" '
         f'font-size="{font}">'
         f'{esc(loc_deleted)}--</text>'
 
-        f'<text x="{value_x + 265}" y="{y}" '
+        f'<text x="{value_x + 210}" y="{y}" '
         f'fill="{white}" '
         f'font-size="{font}">)</text>'
     )
