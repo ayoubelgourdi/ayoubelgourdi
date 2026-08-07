@@ -1,0 +1,16 @@
+```svg
+<svg width="420" height="50" viewBox="0 0 420 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+    .text {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <text x="210" y="32" text-anchor="middle" class="text">
+    Welcome to my GitHub
+  </text>
+</svg>
+```
