@@ -1,49 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="824" height="845" viewBox="0 0 824 845">
-<defs><style>text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }</style></defs>
-<rect x="0" y="0" width="824" height="845" fill="#1e1e2e" rx="10"/>
-<rect x="0.5" y="0.5" width="823" height="844" fill="none" stroke="#313244" stroke-width="1" rx="10"/>
-<path d="M0,10 Q0,0 10,0 L814,0 Q824,0 824,10 L824,40 L0,40 Z" fill="#181825"/>
-<line x1="0" y1="40" x2="824" y2="40" stroke="#313244" stroke-width="1"/>
-<rect x="16" y="12.0" width="16" height="16" rx="3" fill="#313244"/>
-<text x="24" y="25.0" font-size="11" fill="#a6e3a1" text-anchor="middle">&gt;_</text>
-<text x="42" y="25.0" font-size="12.5" fill="#cdd6f4">ayoubelgourdi@github: ~/portfolio</text>
-<circle cx="744" cy="20.0" r="9" fill="#313244"/>
-<rect x="739" y="19.5" width="10" height="1.4" fill="#9399b2"/>
-<circle cx="772" cy="20.0" r="9" fill="#313244"/>
-<rect x="768" y="16.0" width="8" height="8" fill="none" stroke="#9399b2" stroke-width="1.3"/>
-<circle cx="800" cy="20.0" r="9" fill="#f38ba8"/>
-<line x1="796" y1="16.0" x2="804" y2="24.0" stroke="#1e1e2e" stroke-width="1.4"/>
-<line x1="796" y1="24.0" x2="804" y2="16.0" stroke="#1e1e2e" stroke-width="1.4"/>
-<text x="34" y="70" font-size="14.5" xml:space="preserve"><tspan fill="#a6e3a1">ayoubelgourdi</tspan><tspan fill="#cdd6f4">@github:~$ </tspan><tspan fill="#cdd6f4">whoami --info</tspan></text>
-<text x="34" y="106.80000000000001" font-size="14.5" xml:space="preserve">
-<tspan x="34" y="106.80000000000001" fill="#cdd6f4" font-weight="bold">Info:</tspan><tspan fill="#45475a">____________________________________________________________________</tspan>
-<tspan x="34" y="129.8" fill="#fab387">  Name:                 </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Ayoub Elgourdi&quot;</tspan>
-<tspan x="34" y="152.8" fill="#fab387">  Age:                  </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#f9e2af">20</tspan>
-<tspan x="34" y="175.8" fill="#fab387">  Role:                 </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Web Developer&quot;</tspan>
-<tspan x="34" y="198.8" fill="#fab387">  Location:             </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Agadir, Morocco&quot;</tspan>
-<tspan x="34" y="221.8" fill="#fab387">  Status:               </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Learning &amp; Building&quot;</tspan>
-<tspan x="34" y="257.45" fill="#cdd6f4" font-weight="bold">Languages:</tspan>
-<tspan x="34" y="280.45" fill="#fab387">  Programming:          </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Python, JavaScript, TypeScript&quot;</tspan>
-<tspan x="34" y="303.45" fill="#fab387">  Web:                  </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;HTML, CSS&quot;</tspan>
-<tspan x="34" y="339.09999999999997" fill="#cdd6f4" font-weight="bold">Frameworks:</tspan>
-<tspan x="34" y="362.09999999999997" fill="#fab387">  Frontend:             </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;React, Next.js, Tailwind CSS&quot;</tspan>
-<tspan x="34" y="385.09999999999997" fill="#fab387">  Backend:              </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Node.js, Express.js&quot;</tspan>
-<tspan x="34" y="420.74999999999994" fill="#cdd6f4" font-weight="bold">Databases:</tspan>
-<tspan x="34" y="443.74999999999994" fill="#fab387">  SQL:                  </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;MySQL, PostgreSQL&quot;</tspan>
-<tspan x="34" y="479.3999999999999" fill="#cdd6f4" font-weight="bold">Tools:</tspan>
-<tspan x="34" y="502.3999999999999" fill="#fab387">  VersionControl:       </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Git, GitHub&quot;</tspan>
-<tspan x="34" y="525.3999999999999" fill="#fab387">  Editors:              </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;VS Code, Cursor&quot;</tspan>
-<tspan x="34" y="548.3999999999999" fill="#fab387">  OS:                   </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Linux&quot;</tspan>
-<tspan x="34" y="571.3999999999999" fill="#fab387">  DevOps:               </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;Docker&quot;</tspan>
-<tspan x="34" y="607.0499999999998" fill="#cdd6f4" font-weight="bold">Contact:</tspan>
-<tspan x="34" y="630.0499999999998" fill="#fab387">  Email:                </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;devayoub26@gmail.com&quot;</tspan>
-<tspan x="34" y="653.0499999999998" fill="#fab387">  LinkedIn:             </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#a6e3a1">&quot;linkedin.com/in/ayoubelgourdi&quot;</tspan>
-<tspan x="34" y="688.6999999999998" fill="#cdd6f4" font-weight="bold">GitHub Stats:</tspan>
-<tspan x="34" y="711.6999999999998" fill="#fab387">  Repos:                </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#f9e2af">3</tspan>
-<tspan x="34" y="734.6999999999998" fill="#fab387">  Stars:                </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#f9e2af">2</tspan>
-<tspan x="34" y="757.6999999999998" fill="#fab387">  Followers:            </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#f9e2af">1</tspan>
-<tspan x="34" y="780.6999999999998" fill="#fab387">  Commits (this year):  </tspan><tspan fill="#585b70">.............................. </tspan><tspan fill="#f9e2af">N/A</tspan>
-</text>
-<text x="34" y="817.4999999999998" font-size="14.5" xml:space="preserve"><tspan fill="#a6e3a1">ayoubelgourdi</tspan><tspan fill="#cdd6f4">@github:~$ </tspan></text>
-<rect x="242.79999999999998" y="804.4999999999998" width="9" height="16" fill="#cdd6f4"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="1.2s" repeatCount="indefinite"/></rect>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect x="1" y="1" width="998" height="798" rx="18" fill="#111820" stroke="#263746" stroke-width="2"/>
+<style>text { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }</style>
+<text x="34" y="42" fill="#7ee787" font-size="16" font-weight="600">ayoubelgourdi@github:~$</text>
+<text x="250" y="42" fill="#79c0ff" font-size="16" font-weight="600">whoami --info</text>
+<text x="34" y="88" fill="#79c0ff" font-size="16" font-weight="600">Info</text><line x1="122" y1="83" x2="966" y2="83" stroke="#8b949e" stroke-width="1"/>
+<text x="38" y="118" fill="#8b949e" font-size="16">·</text><text x="62" y="118" fill="#ffa657" font-size="16" font-weight="600">Role:</text><text x="300" y="118" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="118" fill="#79c0ff" font-size="16">Web Developer</text>
+<text x="38" y="143" fill="#8b949e" font-size="16">·</text><text x="62" y="143" fill="#ffa657" font-size="16" font-weight="600">Age:</text><text x="300" y="143" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="143" fill="#79c0ff" font-size="16">20</text>
+<text x="38" y="168" fill="#8b949e" font-size="16">·</text><text x="62" y="168" fill="#ffa657" font-size="16" font-weight="600">Location:</text><text x="300" y="168" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="168" fill="#79c0ff" font-size="16">Agadir, Morocco</text>
+<text x="38" y="193" fill="#8b949e" font-size="16">·</text><text x="62" y="193" fill="#ffa657" font-size="16" font-weight="600">Status:</text><text x="300" y="193" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="193" fill="#79c0ff" font-size="16">Learning &amp; Building</text>
+<text x="38" y="218" fill="#8b949e" font-size="16">·</text><text x="62" y="218" fill="#ffa657" font-size="16" font-weight="600">Editors:</text><text x="300" y="218" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="218" fill="#79c0ff" font-size="16">VS Code, Cursor</text>
+<text x="34" y="255" fill="#79c0ff" font-size="16" font-weight="600">Languages</text><line x1="133" y1="250" x2="966" y2="250" stroke="#8b949e" stroke-width="1"/>
+<text x="38" y="285" fill="#8b949e" font-size="16">·</text><text x="62" y="285" fill="#ffa657" font-size="16" font-weight="600">Languages.Programming:</text><text x="300" y="285" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="285" fill="#79c0ff" font-size="16">Python, JavaScript, TypeScript</text>
+<text x="38" y="310" fill="#8b949e" font-size="16">·</text><text x="62" y="310" fill="#ffa657" font-size="16" font-weight="600">Languages.Web:</text><text x="300" y="310" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="310" fill="#79c0ff" font-size="16">HTML, CSS</text>
+<text x="34" y="347" fill="#79c0ff" font-size="16" font-weight="600">Frameworks</text><line x1="142" y1="342" x2="966" y2="342" stroke="#8b949e" stroke-width="1"/>
+<text x="38" y="377" fill="#8b949e" font-size="16">·</text><text x="62" y="377" fill="#ffa657" font-size="16" font-weight="600">Frameworks.Frontend:</text><text x="300" y="377" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="377" fill="#79c0ff" font-size="16">React, Next.js, Tailwind CSS</text>
+<text x="38" y="402" fill="#8b949e" font-size="16">·</text><text x="62" y="402" fill="#ffa657" font-size="16" font-weight="600">Frameworks.Backend:</text><text x="300" y="402" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="402" fill="#79c0ff" font-size="16">Node.js, Express.js</text>
+<text x="34" y="439" fill="#79c0ff" font-size="16" font-weight="600">Database</text><line x1="124" y1="434" x2="966" y2="434" stroke="#8b949e" stroke-width="1"/>
+<text x="38" y="469" fill="#8b949e" font-size="16">·</text><text x="62" y="469" fill="#ffa657" font-size="16" font-weight="600">Database:</text><text x="300" y="469" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="469" fill="#79c0ff" font-size="16">MySQL, PostgreSQL</text>
+<text x="34" y="506" fill="#79c0ff" font-size="16" font-weight="600">Contact</text><line x1="122" y1="501" x2="966" y2="501" stroke="#8b949e" stroke-width="1"/>
+<text x="38" y="536" fill="#8b949e" font-size="16">·</text><text x="62" y="536" fill="#ffa657" font-size="16" font-weight="600">Email:</text><text x="300" y="536" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="536" fill="#79c0ff" font-size="16">devayoub26@gmail.com</text>
+<text x="38" y="561" fill="#8b949e" font-size="16">·</text><text x="62" y="561" fill="#ffa657" font-size="16" font-weight="600">LinkedIn:</text><text x="300" y="561" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="561" fill="#79c0ff" font-size="16">linkedin.com/in/ayoubelgourdi</text>
+<text x="34" y="598" fill="#79c0ff" font-size="16" font-weight="600">GitHub Stats</text><line x1="160" y1="593" x2="966" y2="593" stroke="#8b949e" stroke-width="1"/>
+<text x="38" y="628" fill="#8b949e" font-size="16">·</text><text x="62" y="628" fill="#ffa657" font-size="16" font-weight="600">Repos:</text><text x="300" y="628" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="628" fill="#79c0ff" font-size="16">8</text>
+<text x="38" y="653" fill="#8b949e" font-size="16">·</text><text x="62" y="653" fill="#ffa657" font-size="16" font-weight="600">Stars:</text><text x="300" y="653" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="653" fill="#79c0ff" font-size="16">2</text>
+<text x="38" y="678" fill="#8b949e" font-size="16">·</text><text x="62" y="678" fill="#ffa657" font-size="16" font-weight="600">Followers:</text><text x="300" y="678" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="678" fill="#79c0ff" font-size="16">1</text>
+<text x="38" y="703" fill="#8b949e" font-size="16">·</text><text x="62" y="703" fill="#ffa657" font-size="16" font-weight="600">Commits:</text><text x="300" y="703" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="703" fill="#79c0ff" font-size="16">96</text>
+<text x="38" y="728" fill="#8b949e" font-size="16">·</text><text x="62" y="728" fill="#ffa657" font-size="16" font-weight="600">Lines of Code:</text><text x="300" y="728" fill="#8b949e" font-size="16">. . . . . . . . . . . . . . . . . . . . . . . </text><text x="590" y="728" fill="#79c0ff" font-size="16">7,151</text><text x="695" y="728" fill="#e6edf3" font-size="16">(</text><text x="708" y="728" fill="#7ee787" font-size="16">2,746++</text><text x="788" y="728" fill="#e6edf3" font-size="16">,</text><text x="803" y="728" fill="#ff7b72" font-size="16">4,405--</text><text x="880" y="728" fill="#e6edf3" font-size="16">)</text>
+<text x="34" y="775" fill="#7ee787" font-size="16" font-weight="600">ayoubelgourdi@github:~$</text><rect x="224" y="758" width="10" height="20" fill="#e6edf3"/>
 </svg>
