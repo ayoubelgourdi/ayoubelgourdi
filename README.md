@@ -1,54 +1,8 @@
 <!-- <div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0d1117&height=180&section=header&text=Ayoub%20Elgourdi&fontSize=55&fontColor=ffffff&fontAlignY=40" width="100%"/> -->
-<!-- <div align="center">
-  
-  <img data-importer="image" align="right" height="225" src="https://wallpaperaccess.com/full/21000069.jpg"  />
-
-</div>
-
-<div align="center">
-
-![Stars](https://img.shields.io/badge/⭐_Stars-0-000000?style=for-the-badge)
-![Forks](https://img.shields.io/badge/🍴_Forks-0-000000?style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/ayoubelgourdi?label=FOLLOWERS&style=for-the-badge&color=000000&labelColor=000000)
-
-</div> -->
-
-<div align="center">
-
-<!-- <img data-importer="image" height="350" src="https://wallpaperaccess.com/full/21000069.jpg"  />
-<p>
-  
-</p> -->
-
-![Stars](https://img.shields.io/badge/⭐_Stars-0-000000?style=for-the-badge)
-![Forks](https://img.shields.io/badge/🍴_Forks-0-000000?style=for-the-badge)
-![Followers](https://img.shields.io/github/followers/ayoubelgourdi?label=FOLLOWERS&style=for-the-badge&color=000000&labelColor=000000)
-
-<!-- <p align="center">
-<a href="#about"><img src="https://img.shields.io/badge/ABOUT-000000?style=for-the-badge"/></a>
-<a href="#stack"><img src="https://img.shields.io/badge/TECH_STACK-000000?style=for-the-badge"/></a>
-<a href="#connect"><img src="https://img.shields.io/badge/CONNECT-000000?style=for-the-badge"/></a>
-<a href="#contribution"><img src="https://img.shields.io/badge/CONTRIBUTION-000000?style=for-the-badge"/></a>
-</p> -->
-
-</div>
-
 <br>
-
 <a id="about"></a>
 <h2 align="center"><code>Know About Me</code></h2>
-
-<!-- <table border="0" cellspacing="0" cellpadding="0"> -->
-<!-- <tr> -->
-<!-- <td width="280" valign="top">
-<img src="https://cdn.pfps.gg/pfps/76910-auraxd.jpeg" width="300"/>
-</td> -->
-<!-- <td valign="top" align="center"> -->
-
-<!-- <h2 align="left">Hey there! I'm Ayoub</h2> -->
-
 <p align="left">Hey there! I'm Ayoub,
 I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my  head clear, and football is where I unplug completely. Still learning every day, one commit at a time.</p>
 
