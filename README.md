@@ -30,13 +30,24 @@
 
 <br>
 
-## 🧠 Know About Me
+<h2 align="center">Know About Me</h2>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="150" valign="top">
+<img src="https://cdn.pfps.gg/pfps/6591-149016-anime-guy-animated.gif" width="300"/>
+</td>
+<td valign="top">
 
 ### Hey there! I'm Ayoub
 
-I'm a [your field, e.g. Software / AI / Web] developer who [one or two lines about you — what you build, what you're learning, what drives you]. When I'm not coding, I'm usually [hobby 1] or [hobby 2].
+I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my head clear, and football is where I unplug completely. Still learning every day, one commit at a time.
 
-<br>
+</td>
+</tr>
+</table>
+
+<br clear="left"/>
 
 ## 🚀 Top Projects
 
