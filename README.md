@@ -1,3 +1,7 @@
-<div align="center">
-  <img data-importer="image" align="right" height="224" src="https://wallpaperaccess.com/full/21000069.jpg"  />
-</div>
+<p align="center">
+  <img
+    src="https://wallpaperaccess.com/full/21000069.jpg"
+    height="224"
+    alt="Profile image"
+  />
+</p>
