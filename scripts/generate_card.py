@@ -29,7 +29,7 @@ def daily_readme(birthday):
         diff.years, 'year' + format_plural(diff.years), 
         diff.months, 'month' + format_plural(diff.months), 
         diff.days, 'day' + format_plural(diff.days),
-        ' 🎂' if (diff.months == 0 and diff.days == 0) else '')
+        ' ðŸŽ‚' if (diff.months == 0 and diff.days == 0) else '')
 
 
 def format_plural(unit):
@@ -323,19 +323,175 @@ def stars_counter(data):
 
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
     """
-    Parse SVG files and update elements with my age, commits, stars, repositories, and lines written
+    Generate a terminal-style SVG profile card.
+
+    The GitHub/API calculation logic above stays unchanged. This function only
+    controls the visual design of the generated card.
     """
-    tree = etree.parse(filename)
-    root = tree.getroot()
-    justify_format(root, 'commit_data', commit_data, 22)
-    justify_format(root, 'star_data', star_data, 14)
-    justify_format(root, 'repo_data', repo_data, 6)
-    justify_format(root, 'contrib_data', contrib_data)
-    justify_format(root, 'follower_data', follower_data, 10)
-    justify_format(root, 'loc_data', loc_data[2], 9)
-    justify_format(root, 'loc_add', loc_data[0])
-    justify_format(root, 'loc_del', loc_data[1], 7)
-    tree.write(filename, encoding='utf-8', xml_declaration=True)
+    from xml.sax.saxutils import escape
+
+    is_dark = filename != 'light_mode.svg'
+
+    # Terminal palette inspired by the reference card.
+    bg = '#111820' if is_dark else '#f7f9fb'
+    border = '#263746' if is_dark else '#c8d1d9'
+    white = '#e6edf3' if is_dark else '#24292f'
+    muted = '#8b949e' if is_dark else '#57606a'
+    green = '#7ee787' if is_dark else '#1a7f37'
+    cyan = '#79c0ff' if is_dark else '#0969da'
+    orange = '#ffa657' if is_dark else '#bc4c00'
+    red = '#ff7b72' if is_dark else '#cf222e'
+
+    # Values produced by the existing GitHub calculations.
+    age = str(age_data).split()[0] if str(age_data).split() else str(age_data)
+    loc_total, loc_added, loc_deleted = loc_data
+
+    info_rows = [
+        ('Role:', 'Web Developer'),
+        ('Age:', age),
+        ('Location:', 'Agadir, Morocco'),
+        ('Status:', 'Learning & Building'),
+        ('Editors:', 'VS Code, Cursor'),
+    ]
+
+    language_rows = [
+        ('Languages.Programming:', 'Python, JavaScript, TypeScript'),
+        ('Languages.Web:', 'HTML, CSS'),
+    ]
+
+    framework_rows = [
+        ('Frameworks.Frontend:', 'React, Next.js, Tailwind CSS'),
+        ('Frameworks.Backend:', 'Node.js, Express.js'),
+    ]
+
+    database_rows = [
+        ('Database:', 'MySQL, PostgreSQL'),
+    ]
+
+    contact_rows = [
+        ('Email:', 'devayoub26@gmail.com'),
+        ('LinkedIn:', 'linkedin.com/in/ayoubelgourdi'),
+    ]
+
+    stats_rows = [
+        ('Repos:', repo_data),
+        ('Stars:', star_data),
+        ('Followers:', follower_data),
+        ('Commits:', commit_data),
+    ]
+
+    width = 1000
+    height = 800
+    left = 34
+    right = 966
+    row_h = 25
+    font = 16
+    label_x = 62
+    dots_x = 300
+    value_x = 590
+
+    def esc(value):
+        return escape(str(value))
+
+    def section(title, y):
+        title_w = max(70, len(title) * 9)
+        return (
+            f'<text x="{left}" y="{y}" fill="{cyan}" font-size="{font}" '
+            f'font-weight="600">{esc(title)}</text>'
+            f'<line x1="{left + title_w + 18}" y1="{y - 5}" x2="{right}" y2="{y - 5}" '
+            f'stroke="{muted}" stroke-width="1"/>'
+        )
+
+    def data_row(label, value, y, value_color=cyan):
+        dots = '. ' * 23
+        return (
+            f'<text x="{left + 4}" y="{y}" fill="{muted}" font-size="{font}">·</text>'
+            f'<text x="{label_x}" y="{y}" fill="{orange}" font-size="{font}" '
+            f'font-weight="600">{esc(label)}</text>'
+            f'<text x="{dots_x}" y="{y}" fill="{muted}" font-size="{font}">{dots}</text>'
+            f'<text x="{value_x}" y="{y}" fill="{value_color}" font-size="{font}">{esc(value)}</text>'
+        )
+
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
+        f'viewBox="0 0 {width} {height}">',
+        f'<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="18" '
+        f'fill="{bg}" stroke="{border}" stroke-width="2"/>',
+        f'<style>text {{ font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }}</style>',
+
+        f'<text x="{left}" y="42" fill="{green}" font-size="{font}" font-weight="600">'
+        f'ayoubelgourdi@github:~$</text>',
+        f'<text x="250" y="42" fill="{cyan}" font-size="{font}" font-weight="600">whoami --info</text>',
+    ]
+
+    y = 88
+
+    parts.append(section('Info', y))
+    y += 30
+    for label, value in info_rows:
+        parts.append(data_row(label, value, y))
+        y += row_h
+
+    y += 12
+    parts.append(section('Languages', y))
+    y += 30
+    for label, value in language_rows:
+        parts.append(data_row(label, value, y))
+        y += row_h
+
+    y += 12
+    parts.append(section('Frameworks', y))
+    y += 30
+    for label, value in framework_rows:
+        parts.append(data_row(label, value, y))
+        y += row_h
+
+    y += 12
+    parts.append(section('Database', y))
+    y += 30
+    for label, value in database_rows:
+        parts.append(data_row(label, value, y))
+        y += row_h
+
+    y += 12
+    parts.append(section('Contact', y))
+    y += 30
+    for label, value in contact_rows:
+        parts.append(data_row(label, value, y))
+        y += row_h
+
+    y += 12
+    parts.append(section('GitHub Stats', y))
+    y += 30
+    for label, value in stats_rows:
+        parts.append(data_row(label, value, y))
+        y += row_h
+
+    # LOC: total (added++, deleted--) with separate colors.
+    parts.append(
+        f'<text x="{left + 4}" y="{y}" fill="{muted}" font-size="{font}">·</text>'
+        f'<text x="{label_x}" y="{y}" fill="{orange}" font-size="{font}" '
+        f'font-weight="600">Lines of Code:</text>'
+        f'<text x="{dots_x}" y="{y}" fill="{muted}" font-size="{font}">{". " * 23}</text>'
+        f'<text x="{value_x}" y="{y}" fill="{cyan}" font-size="{font}">{esc(loc_total)}</text>'
+        f'<text x="{value_x + 105}" y="{y}" fill="{white}" font-size="{font}">(</text>'
+        f'<text x="{value_x + 118}" y="{y}" fill="{green}" font-size="{font}">{esc(loc_added)}++</text>'
+        f'<text x="{value_x + 198}" y="{y}" fill="{white}" font-size="{font}">,</text>'
+        f'<text x="{value_x + 213}" y="{y}" fill="{red}" font-size="{font}">{esc(loc_deleted)}--</text>'
+        f'<text x="{value_x + 290}" y="{y}" fill="{white}" font-size="{font}">)</text>'
+    )
+    y += row_h + 22
+
+    parts.append(
+        f'<text x="{left}" y="{y}" fill="{green}" font-size="{font}" font-weight="600">'
+        f'ayoubelgourdi@github:~$</text>'
+        f'<rect x="224" y="{y - 17}" width="10" height="20" fill="{white}"/>'
+    )
+
+    parts.append('</svg>')
+
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(parts))
 
 
 def justify_format(root, element_id, new_text, length=0):
@@ -444,7 +600,7 @@ def formatter(query_type, difference, funct_return=False, whitespace=0):
 
 if __name__ == '__main__':
     """
-    Andrew Grant (Andrew6rant), 2022-2025
+    Ayoub Elgourdi (ayoubelgourdi)
     """
     print('Calculation times:')
     # define global variable for owner ID and calculate user's creation date
@@ -474,6 +630,7 @@ if __name__ == '__main__':
 
     svg_overwrite('dark_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
     svg_overwrite('light_mode.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
+    svg_overwrite('profile_card.svg', age_data, commit_data, star_data, repo_data, contrib_data, follower_data, total_loc[:-1])
 
     # move cursor to override 'Calculation times:' with 'Total function time:' and the total function time, then move cursor back
     print('\033[F\033[F\033[F\033[F\033[F\033[F\033[F\033[F',
