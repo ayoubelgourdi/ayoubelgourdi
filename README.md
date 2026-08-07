@@ -103,18 +103,6 @@
 <a href="https://your-resume-link.com"><img src="https://img.shields.io/badge/RESUME-000000?style=for-the-badge&logo=googledocs&logoColor=4285F4"/></a>
 </p>
 
-<p align="center">
-<i>"Code is never finished. It only becomes slightly less terrible over time."</i>
-</p>
-
-<p align="center">
-<i>"Every commit is a small apology to my future self — a promise that someday, future me will understand what past me was thinking."</i>
-</p>
-
-<p align="center">
-<i>"Still debugging life, one semicolon at a time."</i>
-</p>
-
 <br>
 
 <a id="contribution"></a>
