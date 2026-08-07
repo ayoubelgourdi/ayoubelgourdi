@@ -1,13 +1,9 @@
-<!-- <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0d1117&height=180&section=header&text=Ayoub%20Elgourdi&fontSize=55&fontColor=ffffff&fontAlignY=40" width="100%"/> -->
-<br>
-<a id="about"></a>
+<!-- <br> -->
 <h2 align="center"><code>Know About Me</code></h2>
 <p align="left">Hey there! I'm Ayoub,
 I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my  head clear, and football is where I unplug completely. Still learning every day, one commit at a time.</p>
 
-<br clear="center"/>
-<a id="stack"></a>
+<!-- <br clear="center"/> -->
 <h2 align="center"><code>Tech Stack</code></h2>
 
 <div align="center">
@@ -27,7 +23,6 @@ I'm a web developer currently studying and always sharpening my skills through r
 
 </div>
 
-<a id="connect"></a>
 <h2 align="center"><code>Connect</code></h2>
 
 <p align="center">
@@ -39,18 +34,5 @@ I'm a web developer currently studying and always sharpening my skills through r
 
 <br>
 
-<!-- <a id="contribution"></a>
-<h2 align="center"><code>Contribution</code></h2>
-
-<div align="center"> -->
-
-<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayoubelgourdi&theme=github-compact&bg_color=0d1117&color=ffffff&line=ffffff&point=ffffff&area=true" width="100%"/> -->
-
-<!-- <img src="https://github-readme-stats.vercel.app/api?username=ayoubelgourdi&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayoubelgourdi&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" width="42%"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ayoubelgourdi&theme=dark&hide_border=true&background=0d1117" width="90%"/> -->
-
-<!-- </div>
-
-</div> -->
+<!-- <div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:0d1117&height=180&section=header&text=Ayoub%20Elgourdi&fontSize=55&fontColor=ffffff&fontAlignY=40" width="100%"/> -->
