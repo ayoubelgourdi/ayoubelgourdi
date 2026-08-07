@@ -26,10 +26,18 @@
 ![Forks](https://img.shields.io/badge/🍴_Forks-0-000000?style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/ayoubelgourdi?label=FOLLOWERS&style=for-the-badge&color=000000&labelColor=000000)
 
+<p align="center">
+<a href="#about"><img src="https://img.shields.io/badge/ABOUT-000000?style=for-the-badge"/></a>
+<a href="#stack"><img src="https://img.shields.io/badge/TECH_STACK-000000?style=for-the-badge"/></a>
+<a href="#connect"><img src="https://img.shields.io/badge/CONNECT-000000?style=for-the-badge"/></a>
+<a href="#contribution"><img src="https://img.shields.io/badge/CONTRIBUTION-000000?style=for-the-badge"/></a>
+</p>
+
 </div>
 
 <br>
 
+<a id="about"></a>
 <h2 align="center"><code>Know About Me</code></h2>
 
 <table border="0" cellspacing="0" cellpadding="0">
@@ -49,6 +57,7 @@
 
 <br clear="left"/>
 
+<a id="stack"></a>
 <h2 align="center"><code>Tech Stack</code></h2>
 
 <div align="center">
@@ -84,6 +93,7 @@
 
 </div>
 
+<a id="connect"></a>
 <h2 align="center"><code>Connect</code></h2>
 
 <p align="center">
@@ -107,7 +117,8 @@
 
 <br>
 
-<h2 align="center"><code>📊 Contribution</code></h2>
+<a id="contribution"></a>
+<h2 align="center"><code>Contribution</code></h2>
 
 <div align="center">
 
