@@ -1,109 +1,40 @@
-<!-- <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="banner"/>
-</p> -->
-
-<!-- <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=Web+Developer;Learning+%26+Building;Agadir%2C+Morocco" alt="Typing SVG" />
-</p> -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PROFILE_VIEWS-000-black?style=for-the-badge&labelColor=000000" alt="profile views"/>
-  <img src="https://img.shields.io/badge/WEB_DEVELOPER-00FF00?style=for-the-badge&labelColor=000000&color=00FF00" alt="web dev"/>
-  <img src="https://img.shields.io/badge/OPEN_SOURCE-blue?style=for-the-badge&labelColor=000000" alt="open source"/>
-</p>
-
----
-
-<h2 align="center">( WHOAMI )</h2>
-
-<table align="center">
+<table>
 <tr>
-<td valign="top">
-
-```bash
-┌──(ayoub@elgourdi)-[~]
-└─$ whoami --verbose
-
-  NAME       →  Ayoub Elgourdi
-  AGE        →  20
-  LOCATION   →  Agadir, Morocco
-  ROLE       →  Web Developer
-  STATUS     →  Learning & Building
-```
-
+<td width="320">
+<img src="./profile.jpg" width="300"/>
 </td>
-<td valign="top">
+<td>
 
-```bash
-┌──(ayoub@elgourdi)-[~]
-└─$ cat focus.txt
+```
+ayoub@elgourdi --------------------------------------------
+. Name:      ................................ Ayoub Elgourdi
+. Age:       ................................ 20
+. Role:      ................................ Web Developer
+. Location:  ................................ Agadir, Morocco
+. Status:    ................................ Learning & Building
 
-  STACK      →  React · Next.js · Node.js
-  BACKEND    →  Express · MySQL · PostgreSQL
-  NOW        →  [ Learning ] [ Building ]
-  OPEN FOR   →  Collab · Freelance · Internship
-  PRINCIPLE  →  "Clean code, real projects."
+- Languages -------------------------------------------------
+. Programming:   ............... Python, JavaScript, TypeScript
+. Web:           ............... HTML, CSS
+
+- Frameworks & Libraries --------------------------------------
+. Frontend:      ............... React, Next.js, Tailwind CSS
+. Backend:       ............... Node.js, Express.js
+
+- Databases -----------------------------------------------------
+. SQL:           ............... MySQL, PostgreSQL
+
+- Tools ------------------------------------------------------------
+. Version Control: ............. Git, GitHub
+. Editors:         ............. VS Code, Cursor
+. OS:              ............. Linux
+. DevOps:          ............. Docker
+
+- Contact ------------------------------------------------------------
+. Email:      .................. devayoub26@gmail.com
+. LinkedIn:   .................. linkedin.com/in/ayoubelgourdi
 ```
 
 </td>
 </tr>
 </table>
-
----
-
-<h2 align="center">( TECH STACK )</h2>
-
-<p align="center"><b>◆ Languages ◆</b></p>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=py,html,css,js,ts" />
-</p>
-
-<p align="center"><b>◆ Frontend ◆</b></p>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" />
-</p>
-
-<p align="center"><b>◆ Backend & Databases ◆</b></p>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres" />
-</p>
-
-<p align="center"><b>◆ Tools & OS ◆</b></p>
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,docker,kubernetes,linux,ubuntu" />
-</p>
-
----
-
-<h2 align="center">( CONNECT )</h2>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ayoubelgourdi/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-</p>
-
----
-
-<h2 align="center">( GITHUB STATS )</h2>
- 
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=ayoubelgourdi&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00FF00&icon_color=00FF00" width="49%" />
-  <img src="https://streak-stats.demolab.com?user=ayoubelgourdi&theme=dark&hide_border=true&background=0d1117&ring=00FF00&fire=00FF00" width="49%" />
-</p>
-
----
-
-<h2 align="center">( ACTIVITY GRAPH )</h2>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayoubelgourdi&theme=react-dark&hide_border=true&bg_color=0d1117&color=00FF00&line=00FF00&point=ffffff" width="100%" />
-</p>
-
----
-
-<p align="center"><i>"Low noise, high precision."</i></p>
