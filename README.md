@@ -1,38 +1,40 @@
 <table>
 <tr>
 <td width="320">
-<img src="https://pin.it/2QKKjXO6a" width="300"/>
+<img src="./profile.jpg" width="300"/>
 </td>
 <td>
 
-```
-ayoub@elgourdi --------------------------------------------
-. Name:      ................................ Ayoub Elgourdi
-. Age:       ................................ 20
-. Role:      ................................ Web Developer
-. Location:  ................................ Agadir, Morocco
-. Status:    ................................ Learning & Building
+```ini
+; ayoub@elgourdi ---------------------------------------------
 
-- Languages -------------------------------------------------
-. Programming:   ............... Python, JavaScript, TypeScript
-. Web:           ............... HTML, CSS
+[Info]
+Name      = Ayoub Elgourdi
+Age       = 20
+Role      = Web Developer
+Location  = Agadir, Morocco
+Status    = Learning & Building
 
-- Frameworks & Libraries --------------------------------------
-. Frontend:      ............... React, Next.js, Tailwind CSS
-. Backend:       ............... Node.js, Express.js
+[Languages]
+Programming = Python, JavaScript, TypeScript
+Web         = HTML, CSS
 
-- Databases -----------------------------------------------------
-. SQL:           ............... MySQL, PostgreSQL
+[Frameworks]
+Frontend  = React, Next.js, Tailwind CSS
+Backend   = Node.js, Express.js
 
-- Tools ------------------------------------------------------------
-. Version Control: ............. Git, GitHub
-. Editors:         ............. VS Code, Cursor
-. OS:              ............. Linux
-. DevOps:          ............. Docker
+[Databases]
+SQL = MySQL, PostgreSQL
 
-- Contact ------------------------------------------------------------
-. Email:      .................. devayoub26@gmail.com
-. LinkedIn:   .................. linkedin.com/in/ayoubelgourdi
+[Tools]
+VersionControl = Git, GitHub
+Editors        = VS Code, Cursor
+OS             = Linux
+DevOps         = Docker
+
+[Contact]
+Email    = devayoub26@gmail.com
+LinkedIn = linkedin.com/in/ayoubelgourdi
 ```
 
 </td>
