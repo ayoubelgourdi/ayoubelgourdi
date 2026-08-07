@@ -5,3 +5,6 @@
     alt="Profile image"
   />
 </p>
+<p align="center">
+  <img src="./welcome.svg" alt="WELCOME">
+</p>
