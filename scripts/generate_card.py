@@ -436,18 +436,17 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
         """
 
         char_width = 9
-        label_gap = 18
-        value_gap = 2
+        label_gap = 12
 
         label_end_x = label_x + (len(label) * char_width)
         row_dots_x = label_end_x + label_gap
 
-        available_width = value_x - row_dots_x - value_gap
+        available_width = value_x - row_dots_x - 20
 
-        dot_unit_width = char_width * 2
-        dots_count = max(0, int(available_width / dot_unit_width))
+        dot_unit_width = 10
+        dots_count = max(1, int(available_width / dot_unit_width))
 
-        dots = '· ' * dots_count
+        dots = '·' * dots_count
 
         return (
             # Bullet
@@ -465,7 +464,8 @@ def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
             # Dots
             f'<text x="{row_dots_x}" y="{y}" '
             f'fill="{muted}" '
-            f'font-size="{font}">'
+            f'font-size="{font}" '
+            f'letter-spacing="2">'
             f'{dots}</text>'
 
             # Value
