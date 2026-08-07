@@ -35,7 +35,7 @@
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td width="150" valign="top">
-<img src="https://cdn.pfps.gg/pfps/6591-149016-anime-guy-animated.gif" width="250"/>
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWg3cTJreHpkMWs4NTE3aW5rbHlqZXVheGszczB3aTJrc2JlOHZ2bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BGZTfUlsBmgaPLmKiN/giphy.gif" width="420"/>
 </td>
 <td valign="top">
 
