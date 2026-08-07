@@ -1,7 +1,7 @@
 <table>
 <tr>
 <td width="320">
-<img src="./profile.jpg" width="300"/>
+<img src="https://pin.it/2QKKjXO6a" width="300"/>
 </td>
 <td>
 
