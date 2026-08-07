@@ -26,12 +26,12 @@
 ![Forks](https://img.shields.io/badge/🍴_Forks-0-000000?style=for-the-badge)
 ![Followers](https://img.shields.io/github/followers/ayoubelgourdi?label=FOLLOWERS&style=for-the-badge&color=000000&labelColor=000000)
 
-<p align="center">
+<!-- <p align="center">
 <a href="#about"><img src="https://img.shields.io/badge/ABOUT-000000?style=for-the-badge"/></a>
 <a href="#stack"><img src="https://img.shields.io/badge/TECH_STACK-000000?style=for-the-badge"/></a>
 <a href="#connect"><img src="https://img.shields.io/badge/CONNECT-000000?style=for-the-badge"/></a>
 <a href="#contribution"><img src="https://img.shields.io/badge/CONTRIBUTION-000000?style=for-the-badge"/></a>
-</p>
+</p> -->
 
 </div>
 
