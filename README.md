@@ -30,18 +30,18 @@
 
 <br>
 
-<h2 align="center">Know About Me</h2>
+<h2 align="center"><code>Know About Me</code></h2>
 
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td width="150" valign="top">
-<img src="https://cdn.pfps.gg/pfps/6591-149016-anime-guy-animated.gif" width="300"/>
+<img src="https://cdn.pfps.gg/pfps/6591-149016-anime-guy-animated.gif" width="250"/>
 </td>
 <td valign="top">
 
-### Hey there! I'm Ayoub
+<h2 align="left"><code>Hey there! I'm Ayoub</code></h2>
 
-I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my head clear, and football is where I unplug completely. Still learning every day, one commit at a time.
+<code>I'm a web developer currently studying and always sharpening my skills through real projects. I care about writing clean, readable code and building things that actually solve problems, not just look good on paper. Outside of coding, I like to stay balanced — drawing helps me think creatively, the gym keeps my head clear, and football is where I unplug completely. Still learning every day, one commit at a time.</code>
 
 </td>
 </tr>
