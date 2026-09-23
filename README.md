@@ -1,10 +1,10 @@
 <h3>Projects :</h3>
 <p>...</p>
 <h3>Connect with me :</h3>
-<a href="https://linkedin.com/in/your-username"><img src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:youremail@gmail.com"><img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" /></a>
-<a href="https://your-portfolio-link.com"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-<a href="https://x.com/your-username"><img src="https://img.shields.io/badge/X-1E293B?style=flat-square&logo=x&logoColor=white" /></a>
+<a href="www.linkedin.com/in/ayoubelgourdi"><img src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<a href="devayoub26@gmail.com"><img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+<a href="https://www.threads.com/@the4yop"><img src="https://img.shields.io/badge/Threads-1E293B?style=flat-square&logo=threads&logoColor=white" /></a>
 <h3>Technologies :</h3>
 <p align="">
   <img src="https://img.shields.io/badge/JavaScript-8B5CF6?style=flat-square&logo=javascript&logoColor=white" />
