@@ -1,15 +1,43 @@
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-username)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:youremail@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1E3A5F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://your-portfolio-link.com)
+ 
+</div>
+
 ```bash
-"I'm still learning and always exploring new technologies </>"
+$ Technologies
 ```
-#
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayoubelgourdi/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](devayoub26@gmail.com)
-#
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+ 
+<div align="center">
+  
+![JavaScript](https://img.shields.io/badge/JavaScript-1E3A5F?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-1E3A5F?style=for-the-badge&logo=python&logoColor=3776AB)
+![HTML5](https://img.shields.io/badge/HTML5-1E3A5F?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-1E3A5F?style=for-the-badge&logo=css3&logoColor=1572B6)
+![React](https://img.shields.io/badge/React-1E3A5F?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-1E3A5F?style=for-the-badge&logo=nodedotjs&logoColor=339933)
+ 
+
+![Express](https://img.shields.io/badge/Express-1E3A5F?style=for-the-badge&logo=express&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-1E3A5F?style=for-the-badge&logo=tailwindcss&logoColor=38B2AC)
+![Linux](https://img.shields.io/badge/Linux-1E3A5F?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Git](https://img.shields.io/badge/Git-1E3A5F?style=for-the-badge&logo=git&logoColor=F05032)
+![MySQL](https://img.shields.io/badge/MySQL-1E3A5F?style=for-the-badge&logo=mysql&logoColor=4479A1)
+ 
+</div>
+
+
+<!-- ## 🚀 Projects -->
+
+<!--
+Zid hna les projects dyalek, mesalan:
+
+### [Project Name](lien-dyal-project)
+Description qsira 3la project.
+
+**Technologies:** React, Node.js, MySQL
+-->
+
+<!-- </br> -->
