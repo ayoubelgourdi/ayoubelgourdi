@@ -7,7 +7,6 @@
     <a href="https://www.threads.com/@the4yop"><img src="https://img.shields.io/badge/Threads-1E293B?style=flat-square&logo=threads&logoColor=white" /></a>
   </div>
 </div>
-
 <div align="center">
   <br>
   <img src="technologies.png" alt="technologies" width="150"/>
@@ -23,3 +22,9 @@
   <img src="https://img.shields.io/badge/Linux-64748B?style=flat-square&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-6366F1?style=flat-square&logo=git&logoColor=white" />
 </p>
+<div align="center">
+  <img src="Featured-Projects.png" alt="technologies" width="190"/>
+</div>
+<div align="center">
+  <p>...</p>
+</div>
