@@ -1,4 +1,4 @@
-<img src="yop.png" alt="YOP" width="300" agline="center"/>
+<img src="yop.png" alt="YOP" width="300" align="center"/>
 <h3>Connect with me :</h3>
 <a href="www.linkedin.com/in/ayoubelgourdi"><img src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=flat-square&logo=linkedin&logoColor=white" /></a>
 <a href="devayoub26@gmail.com"><img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" /></a>
