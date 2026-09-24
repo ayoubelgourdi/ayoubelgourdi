@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/Git-6366F1?style=flat-square&logo=git&logoColor=white" />
 </p>
 <div align="center">
-  <img src="Featured-Projects.png" alt="technologies" width="190"/>
+  <img src="Featured-Projects.png" alt="technologies" width="170"/>
 </div>
 <div align="center">
   <p>...</p>
