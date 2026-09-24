@@ -1,13 +1,17 @@
 <div align="center">
   <img src="yop-1.png" alt="YOP" width="300"/>
+  <div>
+    <a href="www.linkedin.com/in/ayoubelgourdi"><img src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=flat-square&logo=linkedin&logoColor=white" /></a>
+    <a href="devayoub26@gmail.com"><img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" /></a>
+    <a href="#"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=flat-square&logo=googlechrome&logoColor=white" /></a>
+    <a href="https://www.threads.com/@the4yop"><img src="https://img.shields.io/badge/Threads-1E293B?style=flat-square&logo=threads&logoColor=white" /></a>
+  </div>
 </div>
-<h3>Connect with me :</h3>
-<a href="www.linkedin.com/in/ayoubelgourdi"><img src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="devayoub26@gmail.com"><img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-<a href="https://www.threads.com/@the4yop"><img src="https://img.shields.io/badge/Threads-1E293B?style=flat-square&logo=threads&logoColor=white" /></a>
-<h3>Technologies :</h3>
-<p align="">
+
+<div align="center">
+  <h3>Technologies :</h3>
+</div>
+<p align="center">
   <img src="https://img.shields.io/badge/JavaScript-8B5CF6?style=flat-square&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3B82F6?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-38BDF8?style=flat-square&logo=react&logoColor=white" />
