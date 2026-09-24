@@ -9,7 +9,8 @@
 </div>
 
 <div align="center">
-  <h3>Technologies :</h3>
+  <br>
+  <img src="technologies.png" alt="technologies" width="150"/>
 </div>
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-8B5CF6?style=flat-square&logo=javascript&logoColor=white" />
