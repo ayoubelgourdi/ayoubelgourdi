@@ -1,8 +1,8 @@
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px;">
   <table>
     <tr>
       <td><img src="yop-1.png" alt="YOP" width="300"/></td>
-      <td>
+      <td align="center">
         <a href="https://www.linkedin.com/in/ayoubelgourdi"><img src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=flat-square&logo=linkedin&logoColor=white" /></a><br/>
         <a href="mailto:devayoub26@gmail.com"><img src="https://img.shields.io/badge/Email-14B8A6?style=flat-square&logo=gmail&logoColor=white" /></a><br/>
         <a href="#"><img src="https://img.shields.io/badge/Portfolio-6366F1?style=flat-square&logo=googlechrome&logoColor=white" /></a><br/>
