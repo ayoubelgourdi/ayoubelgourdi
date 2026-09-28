@@ -1,4 +1,4 @@
-<div align="center">
+<div align="">
   <img src="yop-1.png" alt="YOP" width="200"/>
   <div>
     <a href="www.linkedin.com/in/ayoubelgourdi"><img src="https://img.shields.io/badge/LinkedIn-0EA5E9?style=flat-square&logo=linkedin&logoColor=white" /></a>
@@ -8,11 +8,11 @@
   </div>
 </div>
 
-<div align="center">
+<div align="">
   <br>
   <img src="technologies.png" alt="technologies" width="100"/>
 </div>
-<p align="center">
+<p align="">
   <img src="https://img.shields.io/badge/JavaScript-8B5CF6?style=flat-square&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3B82F6?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-38BDF8?style=flat-square&logo=react&logoColor=white" />
