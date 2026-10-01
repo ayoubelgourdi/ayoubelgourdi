@@ -33,6 +33,7 @@
 <p>
   <img src="yop-1.png" alt="YOP" width="100" align="middle"/>&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/ayoubelgourdi/"><img align="middle" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="devayoub26@gmail.com"><img align="middle" src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
