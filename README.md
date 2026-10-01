@@ -12,7 +12,7 @@
   <br>
   <img src="technologies.png" alt="technologies" width="100"/>
 </div> -->
-<p align="">
+<!-- <p align="">
   <img src="https://img.shields.io/badge/JavaScript-8B5CF6?style=flat-square&logo=javascript&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3B82F6?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-38BDF8?style=flat-square&logo=react&logoColor=white" />
@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-64748B?style=flat-square&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-6366F1?style=flat-square&logo=git&logoColor=white" />
-</p>
+</p> -->
 <!-- <div align="center">
   <img src="Featured-Projects.png" alt="technologies" width="190"/>
 </div>
