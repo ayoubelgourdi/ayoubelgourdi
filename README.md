@@ -29,3 +29,33 @@
 <div align="center">
   <p>...</p>
 </div> -->
+
+<p>
+  <img src="yop-1.png" alt="YOP" width="100" align="middle"/>&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/ayoubelgourdi/"><img align="middle" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+</p>
+
+---
+
+#### Featured Project
+[Restaurant Website](https://github.com/ayoubelgourdi/restaurant-website) : A full restaurant website built with **Node.js, Express and EJS**, with a responsive layout styled using **Tailwind CSS** and data stored in **MySQL**.
+
+<p align="center">
+  <i>Tech Stack</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+</p>
+
+---
+<p align="center">
+  <i>Thanks for stopping by.</i>
+</p>
+
