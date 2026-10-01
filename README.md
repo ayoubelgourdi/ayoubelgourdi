@@ -41,11 +41,9 @@
 #### Featured Project
 [Restaurant Website](https://github.com/ayoubelgourdi/restaurant-website) : A full restaurant website built with **Node.js, Express and EJS**, with a responsive layout styled using **Tailwind CSS** and data stored in **MySQL**.
 
-<p align="center">
-  <i>Tech Stack</i>
-</p>
+---
 
-<p align="center">
+<p align="">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
@@ -55,8 +53,5 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 </p>
 
----
-<p align="center">
-  <i>Thanks for stopping by.</i>
-</p>
+
 
